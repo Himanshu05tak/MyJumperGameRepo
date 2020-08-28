@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TextureGlow
-  m_Shader: {fileID: 4800000, guid: e067b7f2898abf349a5ab8c143cc81fb, type: 3}
+  m_Name: SlowDissolveEffect
+  m_Shader: {fileID: 4800000, guid: 30ecba139dd5eba49acc54a5c6ac78e1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -23,7 +23,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: aecb124b16e651d48aabdba994b0e3ab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - Texture2D_CE1B1B71:
+    - Texture2D_FDE45B0E:
         m_Texture: {fileID: 2800000, guid: aecb124b16e651d48aabdba994b0e3ab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -52,11 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_4B1D8DE5: 2
-    - Vector1_61400F94: 0.5
-    - Vector1_814423CD: 0.4
-    - Vector1_930F67EB: 20
-    - Vector1_94749A61: 1
+    - Vector1_4051DA3C: 0.02
+    - Vector1_61400F94: 0
+    - Vector1_92F2915D: 30
+    - Vector1_930F67EB: 100
+    - Vector1_94749A61: 0
     - Vector1_947FB42D: 0.4
     - Vector1_C46E66D7: 2
     - _AlphaClip: 0
@@ -78,10 +78,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_4462D985: {r: 4.322632, g: 3.311092, b: 1.243776, a: 0}
-    - Color_5E3883DB: {r: 0.2561855, g: 0.9528302, b: 0.7352918, a: 0}
+    - Color_A3156263: {r: 0, g: 15.19236, b: 16, a: 0}
     - Vector2_E3ED27EF: {r: -1, g: 1, b: 0, a: 0}
     - Vector2_F21F0ECB: {r: 0.1, g: 2, b: 0, a: 0}
-    - _Color: {r: 0.24230155, g: 0.9339623, b: 0.8804358, a: 1}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
